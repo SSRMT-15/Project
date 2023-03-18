@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0px;
+        }
+        body{
+            background-color: lightgrey;
+            
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%; 
+            height: 20vh;
+            border-radius: 86% 14% 96% 4% / 2% 85% 15% 98%  ; 
+            background-color: antiquewhite ;
+            position: fixed;
+            z-index: 1;
+     }
+        img{
+            width:15%;
+            height: 20vh;
+        }
+        p{
+            margin-left: -7%;
+            font-size: 40px;
+            color: brown;
+            font-weight: bolder;
+        }
+        a{
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        a:hover{
+           text-decoration: underline;
+           width: 100px;
+        }
+        .download a{
+            font-size: 20px;
+            color:white;
+        }
+        .download{
+            border-radius: 50px;
+            height: 8vh;
+            width: 11%;
+            background-color: black;
+        }
+        .cont1{
+            width: 100%;
+           height: 87vh;
+        }
+        .cont1 img{
+            width: 40%;
+            height: 55vh;
+            margin-top: 15%;
+            border-radius: 10px;
+            margin-left: 50%
+        }
+        h1{
+            width: 30%;
+            margin-top: -25%;
+            margin-left: 3%;
+            font-size: 50px;
+        }
+        .cont1 p{
+            font-size: 20px;
+            margin-top: 2%;
+            margin-left: 3%;
+            line-height: 2;
+            width: 30%;
+            text-align: justify;
+            color: black;
+            font-weight: normal;
+        }
+        .cont2{
+            width: 100%;
+           height: 87vh;
+           margin-top: 1%;
+           display: flex;
+           flex-direction: column;
+        }
+        h2{
+            width: 30%;
+            margin-left: 3%;
+            font-size: 50px;
+        }
+        .cus{
+            display: flex;
+            flex-direction: column;
+        }
+        .safety{
+            display: flex;
+        }
+        .cus img{
+            width: 50%;
+            height: 50vh;
+            margin-top: 1.5%;
+            margin-left: 10%;
+        }
+        .cus h3{
+            margin-left: 10%;
+            margin-top: 1%;
+            font-size: 30px;
+        }
+        .cus p{
+            color: black;
+            width: 50%;
+            margin-left: 10%;
+            margin-top: 1%;
+            font-weight: normal;
+            text-align: justify;
+            font-size: 25px;
+        }
+        .capt{
+            display: flex;
+            flex-direction:column;
+        }
+        .capt img{
+            width: 50%;
+            height: 50vh;
+            margin-top: 1.5%;
+        
+        }
+        .capt h3{
+            margin-left: 1%;
+            margin-top: 1%;
+            font-size: 30px;
+        }
+        .capt p{
+            color: black;
+            width: 50%;
+            margin-left: 1%;
+            margin-top: 1%;
+            font-weight: normal;
+            text-align: justify;
+            font-size: 25px;
+        }
+        .cont3{
+            width: 100%;
+           height: 20vh;
+        }
+        .cont3 h1{
+            margin-top: 2%;
+            font-size: 40px;
+        }
+        .cont3 p{
+            color: black;
+            margin-top: 1%;
+            margin-left: 3%;
+            font-size: 25px;
+            width: 80%;
+            font-weight: normal;
+        }
+        .cont4{
+            width: 100%;
+           height: 50vh;
+          display: flex;
+        }
+        .c{
+            display: flex;
+            flex-direction: column;
+        }
+        .c img{
+            width: 30%;
+            margin-left: 20%;
+        }
+         h4{
+            font-size: 20px;
+            margin-left:22%;
+            margin-top: 2%;
+            width: 100%;
+        }
+        .c p{
+            font-size: 20px;
+            margin-left: 22%;
+            margin-top: 1%;
+            width: 30%;
+            color: black;
+            font-weight: normal;
+            text-align: justify;
+        }
+        .e img{
+            width: 35%;
+        }
+        .e p{
+            font-size: 20px;
+            margin-left: 6%;
+            margin-top: 1%;
+            width: 30%;
+            color: black;
+            font-weight: normal;
+            text-align: justify;
+        }
+        .e h4{
+            margin-left: 6%;
+        }
+        .cont11{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: space-around;
+        background-color:black ;
+    
+      }
+      .foo{
+        display: flex;
+        flex-direction: column;
+      }
+      .cont11 h4{
+        font-size: 25px;
+        margin-left: 5%;
+        color: white;
+      }
+      .d{
+        width: 70%;
+        height: 10vh;
+        border-radius: 20px;
+        font-size: 20px;
+        margin-left: -1%;
+        margin-top: 3%;
+        background: transparent;
+        border-color: lightgrey;
+        color: white;
+      }
+      .d i{
+        font-size: 25px;
+        color: darkcyan;
+      }
+      .foo a:hover{
+        width: 100%;
+
+      }
+      .foo2,.foo3{
+        display: flex;
+        flex-direction: column;
+      }
+      .foo2 a{
+        margin-top: 20%;
+        color: white;
+      }
+      .foo2 a:hover{
+        text-decoration: none;
+        width: 100%;
+      }
+      .foo3 a{
+        width: 20%;
+        margin-top: 10%;
+        color: white;
+      }
+      .foo3 a:hover{
+        text-decoration: none;
+        font-size: 20px
+      }
+      .foo4 i{
+        font-size: 40px;
+        margin-top: 10%;
+        color: white;
+      }
+      .twi{
+        margin-left: 20%;
+      }
+      .x{
+        margin-left: 7%;
+      }
+      .cont12{
+        width: 100%;
+        height: 10vh;
+        margin-top: -2%;
+        background-color: black;
+      }
+      .cont12 p{
+        font-size: 15px;
+        text-align: center;
+        color: white;
+      } 
+    
+        </style>
+        </head>
+        <body>
+            <nav>
+                <img src="https://play-lh.googleusercontent.com/9HyDHKMpf6qa6EPhUbX3qgVmdbCQnkYtQxjoM_GgAaQCBlGY0XJcgYiu5jpnm0nZP6Q"> <p>Rapido</p>
+                <span><a href="index.html">Home</a></span>
+                <span><a href="About us.html">About Us</a></span>
+                <span><a href="Safety.html">Safety</a></span>
+                <span><a href="careers.html">Careers</a></span>
+                <button class="download"><a href="#">Download App</a></button>
+            </nav>
+            <div class="cont1">
+                <img src="https://i0.wp.com/orissadiary.com/wp-content/uploads/2019/06/IMG-20190619-WA0006.jpg?fit=1280%2C853&ssl=1">
+                <h1>Safety For All</h1>
+                <p>At Rapido,the well-being of our customers is above everything else.We are constantly in pursuit of enchancing our safety measures to ensure every Rapido ride is a pleasant and comfortable experience.</p>
+            </div>
+            <div class="cont2">
+                <h2>Covers Everyone</h2>
+                <div class="safety">
+                <div class="cus">
+                    <img src="https://thumbs.dreamstime.com/b/young-beautiful-happy-woman-using-smart-phone-girl-texting-her-mobile-phone-isolated-grey-background-young-beautiful-happy-180896246.jpg">
+                    <h3>For Customers</h3>
+                    <p>Every Ride is tracked by the Rapido,with access to granular latitudinal and longitudinal data</p>
+                </div>
+                <div class="capt">
+                    <img src="https://www.thenewsminute.com/sites/default/files/styles/news_detail/public/Rapido_1200.jpeg?itok=oWxOoD3o">
+                    <h3>For Captains</h3>
+                    <p>From Hiring training to monitoring to ongoing checks,we take all necessary steps to ensure our captains safety</p>
+                </div>
+            </div>
+             </div>
+           <div class="cont3">
+            <h1>Way Forward On Safety</h1>
+            <p>To Further Substantiate our commitment to Safety First towards customers & captains,we will be incorporating new features on our platform very soon.</p>
+        </div>
+        <div class="cont4">
+            <div class="c">
+                <img src=https://cdn2.iconfinder.com/data/icons/pittogrammi/142/10-512.png>
+                <h4>Ride Completion Check</h4>
+                <p>Anyone who takes ride between 10pm and 6pm will be contaced by rapido customer care for a safety check after the ride is completed </p>
+            </div>
+            <div class="e">
+                <img src="https://icons.veryicon.com/png/o/healthcate-medical/medical-system/customer-service-33.png">
+                <h4>Pro Active Check-in</h4>
+                <p>Every rider will be alerted on the system and called by Rapido Customer Care when there is any unusual activity or deviation from set protocol</p>
+            </div>
+        </div>
+        <div class="cont11">
+            <div class="foo">
+                <h4>Customer App</h4>
+                <a href="#"><button class="d" type="button"><i class="fa-brands fa-google-play"></i>Get it on google play</button></a>
+                <a href="#"><button class="d" type="button"><i class="fa-brands fa-apple"></i>Download it on Apple Store</button></a>
+            </div>
+            <div class="foo1">
+                <h4>Captain App</h4>
+                <a href="#"><button class="d" type="button"><i class="fa-brands fa-google-play"></i>Get it on google play</button></a>
+            </div>
+            <div class="foo2">
+                <a href="#">Home</a>
+                <a href="#">About us</a>
+                <a href="#">Safety</a>
+                <a href="#">careers</a>
+                <a href="#">Blog</a>
+            </div>
+            <div class="foo3">
+                <a href="#">Privacy</a>
+                <a href="#">Customer Terms</a>
+                <a href="#">Captain terms</a>
+                <a href="#">Press</a>
+            </div>
+            <div class="foo4">
+                <h4>Follow Us</h4>
+                <a href="#"><i class="fa-brands fa-facebook"></i>
+                <a href="#"><i class="twi fa-brands fa-twitter"></i>
+                <a href="#"><i class="x fa-brands fa-linkedin"></i>
+                <a href="#"><i class="twi fa-brands fa-instagram"></i>
+            </div>
+        </div>
+        <div class="cont12">
+            <p>© 2023 Roppen Transportation. All rights reserved.</p>
+         </div>
+        </body>
